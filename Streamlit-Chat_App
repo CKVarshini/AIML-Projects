@@ -1,0 +1,24 @@
+# AIML Chatbot Project
+
+This project is a Streamlit chat app powered by AIML (Artificial Intelligence Markup Language) models.
+
+## Files
+- `app.py`: Main Python script for the Streamlit chat app.
+- `config.yaml`: Configuration file for the project.
+- `llm_chains.py`: Contains the LLM (Language Learning Model) chain code.
+- `prompt_templates.py`: Contains prompt templates for the chat app.
+- `utils.py`: Utility functions for the project.
+- `requirements.txt`: List of Python packages required for the project.
+- `chat_sessions/`: Folder to store chat session data.
+
+## Models Used
+- `mistral-7b-instruct_Q3_K_M.ggfu`: Description of this model.
+- `mistral-7b-instruct_Q5_K_M.ggfu`: Description of this model.
+
+## Setting Up
+1.Install dependencies:
+pip install -r requirements.txt
+Run the Streamlit app:
+
+2.Run the code:
+streamlit run app.py
