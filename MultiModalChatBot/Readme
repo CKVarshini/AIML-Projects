@@ -1,0 +1,49 @@
+LangChain and  Streamlit AI Chat
+Welcome to LangChain and  Streamlit AI Chat, a versatile multimodal chatbot powered by LangChain's language processing capabilities and Streamlit's interactive interface.
+
+Project Overview
+LangChain Streamlit AI Chat offers a seamless way to interact with AI models across various modalities, including text, audio, images, and PDF documents. Whether you want to transcribe audio, describe images, summarize PDFs, or engage in text-based conversations, this project has you covered.
+
+Key Features:
+-Multimodal Interaction: Engage with AI models through text inputs, audio uploads, image uploads, and PDF uploads.
+-Language Processing: Leverage LangChain's powerful language models for tasks such as transcription, summarization, question-answering, and more.
+-Interactive Interface: Enjoy a user-friendly interface provided by Streamlit, allowing for easy navigation and interaction with the AI chatbot.
+
+PDF Handler:
+-Gemini API Integration: Utilize the Gemini API key for PDF processing, enabling users to upload PDF files, request summarization, and interactively query the content through text-based conversations.
+-Flexible API Integration: Users can seamlessly switch between Gemini API and OpenAI API by replacing their security keys in .env file and updating configurations, ensuring flexibility and customization based on individual preferences.
+Example:GEMINI_API_KEY="paste_your_gemini_api_key_here" , OPENAI_API_KEY="paste_your_openai_api_key_here"
+
+Getting Started:
+To get started with LangChain and Streamlit AI Chat, follow these simple steps:
+1.Clone the Repository: Clone the project repository from GitHub to your local machine.
+
+2.Set up Environment: Create a virtual environment, install dependencies, and download the necessary language and image models as instructed in the project documentation.
+Prerequisites:
+Python 3.10.11 or higher
+Git (optional but recommended)
+
+->Create a Virtual Environment: Create a virtual environment to isolate project dependencies. Run:python -m venv chat_venv
+->Activate the Virtual Environment:Activate the virtual environment. On Windows: venv\Scripts\activate
+                                                                     On Unix or MacOS: source venv/bin/activate
+
+3.Install Required Packages:Install the required Python packages. Run: pip install -r requirements.txt
+
+4.Download Models:Download the necessary language and image models from the provided links
+ -Huggingface TheBloke for quantized models: https://huggingface.co/TheBloke
+- Embeeding Leaderbord: https://huggingface.co/spaces/mteb/le...
+- Whisper ai models: https://huggingface.co/collections/op...
+- llama-cpp-python: https://github.com/abetlen/llama-cpp-...
+- Mistral model I used: https://huggingface.co/TheBloke/Mistr...
+
+5.Customize Configuration:Open the config.py file and update it with the paths to the downloaded models.
+
+6.Run the Streamlit Application:Launch the Streamlit application by running:  streamlit run multi.py
+
+7.Access the Application:Once the application is running, open your web browser and navigate to the URL provided by Streamlit (usually http://localhost:8501). You should now be able to interact with the Local Multimodal AI Chat.
+
+
+
+Additional Notes:
+For Windows users, if you encounter any issues during the installation or execution process, refer to the troubleshooting section in the project repository or reach out for assistance.
+Feel free to explore the project further, provide feedback, or contribute to its development on GitHub.
